@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | CarShop.az</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* Дополнительные быстрые стили чисто для этой страницы */
+        .contacts-main {
+            margin-top: 120px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contacts-title {
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contacts-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            margin: 40px auto 0 auto;
+        }
+
+        .contact-card {
+            background: rgba(26, 26, 26, 0.6);
+            border: 1px solid rgba(0, 191, 255, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(0, 191, 255, 0.4);
+            border-color: #00bfff;
+        }
+
+        .contact-card h3 {
+            color: #00bfff;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        .contact-card p {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to bottom, #1E1040, #FF9A8B, #1E1040); min-height: 100vh; margin: 0; font-family: sans-serif;">
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="contact-link">На главную</a>
+        </div>
+    </header>
+
+    <main class="contacts-main">
+        <h1 class="contacts-title">Наши Контакты</h1>
+        <p style="color: #ccc;">Свяжитесь с нами для покупки или консультации</p>
+
+        <div class="contacts-container">
+            <div class="contact-card">
+                <h3>Телефон</h3>
+                <p>+994 (XX) XXX-XX-XX</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Director telegram</h3>
+                <p>@formula1TM</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Наш Адрес</h3>
+                <p>Баку, Наримановский район</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
